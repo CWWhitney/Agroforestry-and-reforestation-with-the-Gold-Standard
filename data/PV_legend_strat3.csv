@@ -1,0 +1,33 @@
+label,variable,lower,median,upper,distribution,Unit,Comment,Source
+CO2 sequestration,co2_sequestration,1.063333333,NA,55.77,posnorm,t CO2,VER that are available to be sold (equals sequestered carbon),"Lit. (mainly ""World potential of agroforestry systems"", Ram et. al 2016), multiplied with C to CO2 factor 44/12"
+Additional shares sold,company_shares_additional_strat3,5,NA,200,posnorm,shares/year,Number of additionally purchased company shares with strat. 3,Irene Fritz
+Price of company shares,company_shares_price,1000,NA,1000,const,€/company share,Satzung PuroVerde eG_Stand_Juli 2017 (mit Änderungen).pdf,
+Consultant cost (initial),consultant_cost_initial,1500,NA,3000,posnorm,€/year,Total cost of consultant for initial certification,Zertifizierungskosten BI1.xlsx
+Consultant cost (perf.-cert.),consultant_cost_perfrev,400,NA,3000,posnorm,€/year,Total cost of consultant in performance review years. In normal years: no consultant needed,Zertifizierungskosten BI1.xlsx
+Discount rate,discount_rate,2,NA,6,posnorm,%,Discount rate,
+Exchange rate,exchange_rate,0.625391,NA,1.211827,posnorm,€:$,Exchange rate to convert GS fees in USD to euro,https://www.macrotrends.net/2548/euro-dollar-exchange-rate-historical-chart
+GS fee (new area certification),gs_fee_new_area,1500,NA,1500,const,$,Fee to certify new area,https://globalgoals.goldstandard.org/fees/
+GS fee (perf.-cert.),gs_fee_perfor_rev,1500,NA,1500,const,$,"Performance review fee, paid every 5 years",https://globalgoals.goldstandard.org/fees/
+GS fee (preliminary review),gs_fee_prel_review,3500,NA,3500,const,$,"Preliminary Review for LUF Carbon, paid once, ",https://globalgoals.goldstandard.org/fees/
+GS fee (registry account),gs_fee_registry_account,1000,NA,1000,const,$,"Per year, per account",https://globalgoals.goldstandard.org/fees/
+Working hours PVPF (initial),hours_pvpf_initial,80,NA,140,posnorm,h/year,Working hours of PuroVerde P.F. for initial certification,Pablo Angulo
+Working hours PVPF (perf.-cert.),hours_pvpf_perfrev,120,NA,300,posnorm,h/year,Working hours of Querdenker for years in which PerfCert is taking place,Pablo Angulo
+Working hours PVPF (non-perf.-cert.),hours_pvpf_recurring,40,NA,100,posnorm,h/year,Working hours of PuroVerde P.F. for maintaining certification,Pablo Angulo
+Working hours QD (initial),hours_qd_initial,100,NA,220,posnorm,h/year,Working hours of Querdenker for initial certification,Bárbara Magdalena San Martín
+Working hours QD (perf.-cert.),hours_qd_perfrev,120,NA,300,posnorm,h/year,Working hours of Querdenker for years in which PerfCert is taking place,Bárbara Magdalena San Martín
+Working hours QD (non-perf.-cert.),hours_qd_recurring,80,NA,120,posnorm,h/year,Working hours of Querdenker for maintaining certification,Bárbara Magdalena San Martín
+Initial size of area,initial_area_size,6.899,NA,6.899,const,ha,Size of initial area of finca,Maps from Bernal Wilson
+Marketing costs,marketing_strat3,15000,NA,30000,posnorm,€,Marketing costs for strategy 3 (freeze certificates for members),Simon Mader
+Crediting period,n_years,32,NA,32,const,years,Lifetime of project,Afforestation/Reforestation GHG Emissions Reduction & Sequestration Methodology
+Chance of new area being added,new_area_chance,0.8,NA,0.95,tnorm_0_1,%,,Marco Soto
+Size of new area,new_area_size,4,NA,10,posnorm,ha,,Marco Soto
+Recurrence of perf.-cert.,perf_rev_recur,5,NA,5,const,years,How often does the PerfCert recure,Afforestation/Reforestation GHG Emissions Reduction & Sequestration Methodology
+Additional product sales,productsales_additional_strat3,1,NA,25,posnorm,€/ha,Additional income due to higher WTP for carbon neutral products; strategy 3,Literature/Irene Fritz
+Salary of PVPF employees,salary_pvpf,30,NA,50,posnorm,€/h,Salary of PuroVerde P.F. employees,Bárbara Magdalena San Martín
+Salary of QD employees,salary_qd,30,NA,50,posnorm,€/h,Salary of Querdenker,Bárbara Magdalena San Martín
+Sales commission for QD,sales_comm,0.125,NA,0.125,const,%,Sales comission from BaumInvest to Querdenker,Martina Alrutz
+Max. size of agroforestry area,total_area_max,75,NA,75,const,ha,,Marco Soto
+Coefficient variation,var_CV,5,NA,30,posnorm,%,coeff. Variation,
+Share of VER for compliance buffer,ver_buffer,0.2,NA,0.2,const,%,The GS - Agriculture Requirements (2014),
+Price for one VER unit,ver_price,5,NA,30,posnorm,€/VER,Price per VER,Übersicht Verfügbarkeit VER_gesamt_181031.xls
+NPV if certification of PV,NPV_PV_Strat3,,,,,,,

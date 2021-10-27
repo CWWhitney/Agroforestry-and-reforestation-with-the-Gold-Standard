@@ -1,0 +1,32 @@
+variable,lower,median,upper,distribution,Unit,Comment,Source
+co2_sequestration,1.063333333,NA,55.77,posnorm,t CO2,VER that are available to be sold (equals sequestered carbon),"Lit. (mainly ""World potential of agroforestry systems"", Ram et. al 2016), multiplied with C to CO2 factor 44/12"
+company_shares_additional_strat2,5,NA,200,posnorm,shares/year,Number of additionally purchased company shares with strat. 2,Irene Fritz
+company_shares_price,1000,NA,1000,const,€/company share,Satzung PuroVerde eG_Stand_Juli 2017 (mit Änderungen).pdf,
+consultant_cost_initial,1500,NA,3000,posnorm,€/year,Total cost of consultant for initial certification,Zertifizierungskosten BI1.xlsx
+consultant_cost_perfrev,400,NA,3000,posnorm,€/year,Total cost of consultant in performance review years. In normal years: no consultant needed,Zertifizierungskosten BI1.xlsx
+discount_rate,2,NA,6,posnorm,%,Discount rate,
+exchange_rate,0.625391,NA,1.211827,posnorm,€:$,Exchange rate to convert GS fees in USD to euro,https://www.macrotrends.net/2548/euro-dollar-exchange-rate-historical-chart
+gs_fee_new_area,1500,NA,1500,const,$,Fee to certify new area,https://globalgoals.goldstandard.org/fees/
+gs_fee_perfor_rev,1500,NA,1500,const,$,"Performance review fee, paid every 5 years",https://globalgoals.goldstandard.org/fees/
+gs_fee_prel_review,3500,NA,3500,const,$,"Preliminary Review for LUF Carbon, paid once, ",https://globalgoals.goldstandard.org/fees/
+gs_fee_registry_account,1000,NA,1000,const,$,"Per year, per account",https://globalgoals.goldstandard.org/fees/
+hours_pvpf_initial,80,NA,140,posnorm,h/year,Working hours of PuroVerde P.F. for initial certification,Pablo Angulo
+hours_pvpf_perfrev,120,NA,300,posnorm,h/year,Working hours of Querdenker for years in which PerfCert is taking place,Pablo Angulo
+hours_pvpf_recurring,40,NA,100,posnorm,h/year,Working hours of PuroVerde P.F. for maintaining certification,Pablo Angulo
+hours_qd_initial,100,NA,220,posnorm,h/year,Working hours of Querdenker for initial certification,Bárbara Magdalena San Martín
+hours_qd_perfrev,120,NA,300,posnorm,h/year,Working hours of Querdenker for years in which PerfCert is taking place,Bárbara Magdalena San Martín
+hours_qd_recurring,80,NA,120,posnorm,h/year,Working hours of Querdenker for maintaining certification,Bárbara Magdalena San Martín
+initial_area_size,6.899,NA,6.899,const,ha,Size of initial area of finca,Maps from Bernal Wilson
+marketing_strat2,320000,NA,455000,posnorm,€,Marketing costs for strategy 2 (sale of CO2 certificates),Simon Mader
+n_years,32,NA,32,const,years,Lifetime of project,Afforestation/Reforestation GHG Emissions Reduction & Sequestration Methodology
+new_area_chance,0.8,NA,0.95,tnorm_0_1,%,,Marco Soto
+new_area_size,4,NA,10,posnorm,ha,,Marco Soto
+perf_rev_recur,5,NA,5,const,years,How often does the PerfCert recure,Afforestation/Reforestation GHG Emissions Reduction & Sequestration Methodology
+productsales_additional_strat2,1,NA,25,posnorm,€/ha,Additional income due to higher WTP for carbon neutral products; strategy 2,Literature/Irene Fritz
+salary_pvpf,30,NA,50,posnorm,€/h,Salary of PuroVerde P.F. employees,Bárbara Magdalena San Martín
+salary_qd,30,NA,50,posnorm,€/h,Salary of Querdenker,Bárbara Magdalena San Martín
+sales_comm,0.125,NA,0.125,const,%,Sales comission from BaumInvest to Querdenker,Martina Alrutz
+total_area_max,75,NA,75,const,ha,,Marco Soto
+var_CV,5,NA,30,posnorm,%,coeff. Variation,
+ver_buffer,0.2,NA,0.2,const,%,The GS - Agriculture Requirements (2014),
+ver_price,5,NA,30,posnorm,€/VER,Price per VER,Übersicht Verfügbarkeit VER_gesamt_181031.xls

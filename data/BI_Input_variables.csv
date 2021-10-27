@@ -1,0 +1,26 @@
+variable,lower,median,upper,distribution,Unit,Explanation,Source
+consultant_cost_initial,1000,NA,2000,posnorm,€/year,Total cost of consultant for initial certification,Zertifizierungskosten BI1.xlsx
+consultant_cost_perfrev,400,NA,3000,posnorm,€/year,Total cost of consultant in normal years,Zertifizierungskosten BI1.xlsx
+discount_rate,2,NA,6,posnorm,%,Discount rate,
+exchange_rate,0.625391,NA,1.211827,posnorm,€:$,Exchange rate to convert GS fees in USD to euro,https://www.macrotrends.net/2548/euro-dollar-exchange-rate-historical-chart
+growth_change_cc,-0.13,NA,0.24,norm,%,Yield losses due to climate change,"Nölte (2018), Multi-purpose forest management in the tropics: Incorporating values of carbon, biodiversity and timber in managing Tectona grandis (teak) plantations in Costa Rica"
+gs_fee_new_area,1500,NA,1500,const,$,Fee to certify new area,https://globalgoals.goldstandard.org/fees/
+gs_fee_perfor_rev,1500,NA,1500,const,$,"Performance review fee, paid every 5 years",https://globalgoals.goldstandard.org/fees/
+gs_fee_registry_account,1000,NA,1000,const,$,"Per year, per account",https://globalgoals.goldstandard.org/fees/
+hours_pvpf_initial,50,NA,95,posnorm,h/year,Working hours of PuroVerde P.F. for initial certification,Pablo Angulo
+hours_pvpf_perfrev,120,NA,300,posnorm,h/year,Working hours of Querdenker for years in which PerfCert is taking place,Pablo Angulo
+hours_pvpf_recurring,40,NA,80,posnorm,h/year,Working hours of PuroVerde P.F. for maintaining certification,Pablo Angulo
+hours_qd_initial,80,NA,150,posnorm,h/year,Working hours of Querdenker for initial certification,Bárbara Magdalena San Martín
+hours_qd_perfrev,120,NA,300,posnorm,h/year,Working hours of Querdenker for years in which PerfCert is taking place,Bárbara Magdalena San Martín
+hours_qd_recurring,80,NA,120,posnorm,h/year,Working hours of Querdenker for maintaining certification,Bárbara Magdalena San Martín
+marketing_BI,10000,NA,25000,posnorm,€,Marketing and communication costs for BaumInvest,Simon Mader
+n_years,17,NA,17,const,years,"Crediting period of project (2021 - 2036, end of crediting period of BaumInvest)",Afforestation/Reforestation GHG Emissions Reduction & Sequestration Methodology
+perf_cert_recur,5,NA,5,const,years,How often does the PerfCert recure,Afforestation/Reforestation GHG Emissions Reduction & Sequestration Methodology
+salary_pvpf,30,NA,50,posnorm,€/h,Salary of PuroVerde P.F. employees,Bárbara Magdalena San Martín
+salary_qd,30,NA,50,posnorm,€/h,Salary of Querdenker,Bárbara Magdalena San Martín
+sales_comm,0.125,NA,0.125,const,%,Sales comission from BaumInvest to Querdenker,Martina Alrutz
+stock_price,1.4,NA,3,posnorm,€/stock,Price of BaumInvest stocks,Heiko Rock/ own analysis
+stock_sales_additional,100,NA,5000,posnorm,stocks,Increase in stocks sold (percentage),Heiko Rock/ own analysis
+var_CV,5,NA,30,posnorm,%,coeff. Variation,
+ver_buffer,0.2,NA,0.2,const,%,GS compliance buffer,The GS - Land Use & Forests Terms and Conditions (2013)
+ver_price,5,NA,30,posnorm,€,Price per VER,Übersicht Verfügbarkeit VER_gesamt_181031.xls
