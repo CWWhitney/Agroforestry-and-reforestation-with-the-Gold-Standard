@@ -4,7 +4,7 @@ Netter L, Luedeling E, Whitney C
 
 The code in `BI_decision_model.r`, `PV_decision_model_Strat1.r`, `PV_decision_model_Strat2.r` and `PV_decision_model_Strat3.r` should be run on the users local machine.
 
-Published in [Mitigation and Adaptation Strategies for Global Change](https://www.springer.com/journal/11027)
+Under consideration at [Mitigation and Adaptation Strategies for Global Change](https://www.springer.com/journal/11027)
 
 See the preprint from Research Square, 14 Jul 2021 
 DOI: [10.21203/rs.3.rs-642597/v1](https://doi.org/10.21203/rs.3.rs-642597/v1) PPR: PPR369940 
